@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  /* border: 1px solid red; */
+  align-items: center;
+}
+.text h2 {
+  text-align: center;
+}
+.inputValue {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-top: 3em;
+}
+.show-more-button {
+  padding: 10px 20px;
+  /* margin: 30px auto; */
+  margin-top: 20rem;
+  border-radius: 5px;
+  margin-left: 43em;
+  cursor: pointer;
+  display: none;
+}
