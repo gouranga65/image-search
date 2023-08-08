@@ -23,3 +23,23 @@
   cursor: pointer;
   display: none;
 }
+.search-results {
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.search-result{
+  margin-bottom: 60px;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search-result img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
